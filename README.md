@@ -1,9 +1,9 @@
-![App Logo](/images/appIcon.png) 
+<img src="https://github.com/SeanSCao/BoomBoomBois/blob/master/images/appIcon.png" width="150">
 # Boom Boom Bois
 
 ### Boom Boom Bois is a 2D local multiplayer arcade game that allows up to 4 players to battle each other on one device. The controls are incredibly simple, one button to turn, one button to shoot, that's it!
 
-![App Screenshot](/images/screenshot.png) 
+<img src="https://github.com/SeanSCao/BoomBoomBois/blob/master/images/screenshot.png" width="250">
 
 ## Specifications
 - Swift 5
