@@ -64,6 +64,6 @@
 
 ## Contributors
 
-- [Sean Cao](www.github.com/SeanSCao)
-- [Nathan Chang](www.github.com/Taekwonm)
+- [Sean Cao](https://www.github.com/SeanSCao)
+- [Nathan Chang](https://www.github.com/Taekwonm)
 - [Phoebe Lo](https://helloimphoebe.myportfolio.com/)
