@@ -67,7 +67,7 @@
 		1441A464239F458300C6B1EF /* reverse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reverse.mp3; sourceTree = "<group>"; };
 		1441A465239F458300C6B1EF /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
 		1441A466239F458400C6B1EF /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
-		145A1C412372441F006D8603 /* TankShebang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TankShebang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		145A1C412372441F006D8603 /* BoomBoomBois.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomBoomBois.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		145A1C442372441F006D8603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		145A1C462372441F006D8603 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		145A1C482372441F006D8603 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -77,10 +77,10 @@
 		145A1C5123724421006D8603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		145A1C5423724421006D8603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		145A1C5623724421006D8603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		145A1C5B23724421006D8603 /* TankShebangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TankShebangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145A1C5B23724421006D8603 /* BoomBoomBoisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomBoomBoisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145A1C5F23724421006D8603 /* TankShebangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankShebangTests.swift; sourceTree = "<group>"; };
 		145A1C6123724421006D8603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		145A1C6623724421006D8603 /* TankShebangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TankShebangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145A1C6623724421006D8603 /* BoomBoomBoisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomBoomBoisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145A1C6A23724421006D8603 /* TankShebangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankShebangUITests.swift; sourceTree = "<group>"; };
 		145A1C6C23724421006D8603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1487665823908689003D1DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				1487665823908689003D1DD0 /* Assets.xcassets */,
-				145A1C432372441F006D8603 /* TankShebang */,
+				145A1C432372441F006D8603 /* BoomBoomBois */,
 				145A1C5E23724421006D8603 /* TankShebangTests */,
 				145A1C6923724421006D8603 /* TankShebangUITests */,
 				145A1C422372441F006D8603 /* Products */,
@@ -148,14 +148,14 @@
 		145A1C422372441F006D8603 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				145A1C412372441F006D8603 /* TankShebang.app */,
-				145A1C5B23724421006D8603 /* TankShebangTests.xctest */,
-				145A1C6623724421006D8603 /* TankShebangUITests.xctest */,
+				145A1C412372441F006D8603 /* BoomBoomBois.app */,
+				145A1C5B23724421006D8603 /* BoomBoomBoisTests.xctest */,
+				145A1C6623724421006D8603 /* BoomBoomBoisUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		145A1C432372441F006D8603 /* TankShebang */ = {
+		145A1C432372441F006D8603 /* BoomBoomBois */ = {
 			isa = PBXGroup;
 			children = (
 				1441A45C239F447900C6B1EF /* Sounds */,
@@ -172,7 +172,7 @@
 				145A1C5623724421006D8603 /* Info.plist */,
 				14DC31572395D8DE002F548B /* Tiles.sks */,
 			);
-			path = TankShebang;
+			path = BoomBoomBois;
 			sourceTree = "<group>";
 		};
 		145A1C5E23724421006D8603 /* TankShebangTests */ = {
@@ -209,9 +209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		145A1C402372441F006D8603 /* TankShebang */ = {
+		145A1C402372441F006D8603 /* BoomBoomBois */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 145A1C6F23724421006D8603 /* Build configuration list for PBXNativeTarget "TankShebang" */;
+			buildConfigurationList = 145A1C6F23724421006D8603 /* Build configuration list for PBXNativeTarget "BoomBoomBois" */;
 			buildPhases = (
 				145A1C3D2372441F006D8603 /* Sources */,
 				145A1C3E2372441F006D8603 /* Frameworks */,
@@ -221,14 +221,14 @@
 			);
 			dependencies = (
 			);
-			name = TankShebang;
+			name = BoomBoomBois;
 			productName = TankShebang;
-			productReference = 145A1C412372441F006D8603 /* TankShebang.app */;
+			productReference = 145A1C412372441F006D8603 /* BoomBoomBois.app */;
 			productType = "com.apple.product-type.application";
 		};
-		145A1C5A23724421006D8603 /* TankShebangTests */ = {
+		145A1C5A23724421006D8603 /* BoomBoomBoisTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 145A1C7223724421006D8603 /* Build configuration list for PBXNativeTarget "TankShebangTests" */;
+			buildConfigurationList = 145A1C7223724421006D8603 /* Build configuration list for PBXNativeTarget "BoomBoomBoisTests" */;
 			buildPhases = (
 				145A1C5723724421006D8603 /* Sources */,
 				145A1C5823724421006D8603 /* Frameworks */,
@@ -239,14 +239,14 @@
 			dependencies = (
 				145A1C5D23724421006D8603 /* PBXTargetDependency */,
 			);
-			name = TankShebangTests;
+			name = BoomBoomBoisTests;
 			productName = TankShebangTests;
-			productReference = 145A1C5B23724421006D8603 /* TankShebangTests.xctest */;
+			productReference = 145A1C5B23724421006D8603 /* BoomBoomBoisTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		145A1C6523724421006D8603 /* TankShebangUITests */ = {
+		145A1C6523724421006D8603 /* BoomBoomBoisUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 145A1C7523724421006D8603 /* Build configuration list for PBXNativeTarget "TankShebangUITests" */;
+			buildConfigurationList = 145A1C7523724421006D8603 /* Build configuration list for PBXNativeTarget "BoomBoomBoisUITests" */;
 			buildPhases = (
 				145A1C6223724421006D8603 /* Sources */,
 				145A1C6323724421006D8603 /* Frameworks */,
@@ -257,9 +257,9 @@
 			dependencies = (
 				145A1C6823724421006D8603 /* PBXTargetDependency */,
 			);
-			name = TankShebangUITests;
+			name = BoomBoomBoisUITests;
 			productName = TankShebangUITests;
-			productReference = 145A1C6623724421006D8603 /* TankShebangUITests.xctest */;
+			productReference = 145A1C6623724421006D8603 /* BoomBoomBoisUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 145A1C3C2372441F006D8603 /* Build configuration list for PBXProject "TankShebang" */;
+			buildConfigurationList = 145A1C3C2372441F006D8603 /* Build configuration list for PBXProject "BoomBoomBois" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -298,9 +298,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				145A1C402372441F006D8603 /* TankShebang */,
-				145A1C5A23724421006D8603 /* TankShebangTests */,
-				145A1C6523724421006D8603 /* TankShebangUITests */,
+				145A1C402372441F006D8603 /* BoomBoomBois */,
+				145A1C5A23724421006D8603 /* BoomBoomBoisTests */,
+				145A1C6523724421006D8603 /* BoomBoomBoisUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -384,12 +384,12 @@
 /* Begin PBXTargetDependency section */
 		145A1C5D23724421006D8603 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 145A1C402372441F006D8603 /* TankShebang */;
+			target = 145A1C402372441F006D8603 /* BoomBoomBois */;
 			targetProxy = 145A1C5C23724421006D8603 /* PBXContainerItemProxy */;
 		};
 		145A1C6823724421006D8603 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 145A1C402372441F006D8603 /* TankShebang */;
+			target = 145A1C402372441F006D8603 /* BoomBoomBois */;
 			targetProxy = 145A1C6723724421006D8603 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -534,12 +534,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BT4ZB5YGM6;
-				INFOPLIST_FILE = TankShebang/Info.plist;
+				INFOPLIST_FILE = BoomBoomBois/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NYU.edu.TankShebang;
+				PRODUCT_BUNDLE_IDENTIFIER = BoomBoomBois;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,12 +552,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BT4ZB5YGM6;
-				INFOPLIST_FILE = TankShebang/Info.plist;
+				INFOPLIST_FILE = BoomBoomBois/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NYU.edu.TankShebang;
+				PRODUCT_BUNDLE_IDENTIFIER = BoomBoomBois;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -581,7 +581,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TankShebang.app/TankShebang";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoomBoomBois.app/BoomBoomBois";
 			};
 			name = Debug;
 		};
@@ -602,7 +602,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TankShebang.app/TankShebang";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoomBoomBois.app/BoomBoomBois";
 			};
 			name = Release;
 		};
@@ -647,7 +647,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		145A1C3C2372441F006D8603 /* Build configuration list for PBXProject "TankShebang" */ = {
+		145A1C3C2372441F006D8603 /* Build configuration list for PBXProject "BoomBoomBois" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				145A1C6D23724421006D8603 /* Debug */,
@@ -656,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		145A1C6F23724421006D8603 /* Build configuration list for PBXNativeTarget "TankShebang" */ = {
+		145A1C6F23724421006D8603 /* Build configuration list for PBXNativeTarget "BoomBoomBois" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				145A1C7023724421006D8603 /* Debug */,
@@ -665,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		145A1C7223724421006D8603 /* Build configuration list for PBXNativeTarget "TankShebangTests" */ = {
+		145A1C7223724421006D8603 /* Build configuration list for PBXNativeTarget "BoomBoomBoisTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				145A1C7323724421006D8603 /* Debug */,
@@ -674,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		145A1C7523724421006D8603 /* Build configuration list for PBXNativeTarget "TankShebangUITests" */ = {
+		145A1C7523724421006D8603 /* Build configuration list for PBXNativeTarget "BoomBoomBoisUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				145A1C7623724421006D8603 /* Debug */,
