@@ -3,7 +3,7 @@
 //  TankShebang
 //
 //  Created by Robert Beit on 12/9/19.
-//  Copyright © 2019 Sean Cao, Robert Beit, Aryan Aru Agarwal. All rights reserved.
+//  Copyright © 2019 Sean Cao. All rights reserved.
 //
 
 import UIKit

@@ -1,9 +1,9 @@
 //
 //  Player.swift
-//  TankShebang
+//  BoomBoomBois
 //
 //  Created by Sean Cao on 12/2/19.
-//  Copyright © 2019 Sean Cao, Robert Beit, Aryan Aru Agarwal. All rights reserved.
+//  Copyright © 2019 Sean Cao. All rights reserved.
 //
 
 import Foundation

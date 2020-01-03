@@ -26,8 +26,8 @@
 		145A1C502372441F006D8603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145A1C4E2372441F006D8603 /* Main.storyboard */; };
 		145A1C5223724421006D8603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145A1C5123724421006D8603 /* Assets.xcassets */; };
 		145A1C5523724421006D8603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145A1C5323724421006D8603 /* LaunchScreen.storyboard */; };
-		145A1C6023724421006D8603 /* TankShebangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A1C5F23724421006D8603 /* TankShebangTests.swift */; };
-		145A1C6B23724421006D8603 /* TankShebangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A1C6A23724421006D8603 /* TankShebangUITests.swift */; };
+		145A1C6023724421006D8603 /* BoomBoomBoisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A1C5F23724421006D8603 /* BoomBoomBoisTests.swift */; };
+		145A1C6B23724421006D8603 /* BoomBoomBoisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A1C6A23724421006D8603 /* BoomBoomBoisUITests.swift */; };
 		1487665A23908689003D1DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1487665823908689003D1DD0 /* Assets.xcassets */; };
 		148D10A4239F6746004EF9F8 /* AdvancedOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D10A3239F6746004EF9F8 /* AdvancedOptionsViewController.swift */; };
 		148D10A6239F67A2004EF9F8 /* GameOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D10A5239F67A2004EF9F8 /* GameOptionsViewController.swift */; };
@@ -78,10 +78,10 @@
 		145A1C5423724421006D8603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		145A1C5623724421006D8603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		145A1C5B23724421006D8603 /* BoomBoomBoisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomBoomBoisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		145A1C5F23724421006D8603 /* TankShebangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankShebangTests.swift; sourceTree = "<group>"; };
+		145A1C5F23724421006D8603 /* BoomBoomBoisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomBoomBoisTests.swift; sourceTree = "<group>"; };
 		145A1C6123724421006D8603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		145A1C6623724421006D8603 /* BoomBoomBoisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomBoomBoisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		145A1C6A23724421006D8603 /* TankShebangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankShebangUITests.swift; sourceTree = "<group>"; };
+		145A1C6A23724421006D8603 /* BoomBoomBoisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomBoomBoisUITests.swift; sourceTree = "<group>"; };
 		145A1C6C23724421006D8603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1487665823908689003D1DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		148D10A3239F6746004EF9F8 /* AdvancedOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedOptionsViewController.swift; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 			children = (
 				1487665823908689003D1DD0 /* Assets.xcassets */,
 				145A1C432372441F006D8603 /* BoomBoomBois */,
-				145A1C5E23724421006D8603 /* TankShebangTests */,
-				145A1C6923724421006D8603 /* TankShebangUITests */,
+				145A1C5E23724421006D8603 /* BoomBoomBoisTests */,
+				145A1C6923724421006D8603 /* BoomBoomBoisUITests */,
 				145A1C422372441F006D8603 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -175,22 +175,22 @@
 			path = BoomBoomBois;
 			sourceTree = "<group>";
 		};
-		145A1C5E23724421006D8603 /* TankShebangTests */ = {
+		145A1C5E23724421006D8603 /* BoomBoomBoisTests */ = {
 			isa = PBXGroup;
 			children = (
-				145A1C5F23724421006D8603 /* TankShebangTests.swift */,
+				145A1C5F23724421006D8603 /* BoomBoomBoisTests.swift */,
 				145A1C6123724421006D8603 /* Info.plist */,
 			);
-			path = TankShebangTests;
+			path = BoomBoomBoisTests;
 			sourceTree = "<group>";
 		};
-		145A1C6923724421006D8603 /* TankShebangUITests */ = {
+		145A1C6923724421006D8603 /* BoomBoomBoisUITests */ = {
 			isa = PBXGroup;
 			children = (
-				145A1C6A23724421006D8603 /* TankShebangUITests.swift */,
+				145A1C6A23724421006D8603 /* BoomBoomBoisUITests.swift */,
 				145A1C6C23724421006D8603 /* Info.plist */,
 			);
-			path = TankShebangUITests;
+			path = BoomBoomBoisUITests;
 			sourceTree = "<group>";
 		};
 		14AF755423A2B66300C6922E /* ViewControllers */ = {
@@ -367,7 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				145A1C6023724421006D8603 /* TankShebangTests.swift in Sources */,
+				145A1C6023724421006D8603 /* BoomBoomBoisTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				145A1C6B23724421006D8603 /* TankShebangUITests.swift in Sources */,
+				145A1C6B23724421006D8603 /* BoomBoomBoisUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
