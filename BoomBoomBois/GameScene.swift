@@ -40,7 +40,7 @@ class GameScene: SKScene {
         fatalError("init(coder:) has not been implemented")
     }
     
-    var map = Map(map_size:size)
+    var map:Map
     
     var players = [Player]() //Array holding player objects
     let playerColors = ["Black", "Red", "Blue", "Green"] //Color of players' tanks
@@ -474,9 +474,9 @@ class GameScene: SKScene {
                 self.removeElements()
                 self.leftPressed = [false, false, false, false]
                 self.resetTanks()
-                map.setMap(mapSetting)
+                self.map.setMap(mapSetting: self.mapSetting, gameLayer: self.gameLayer)
                 self.countdown(length:5)
-                self.tankTurnLeft = true
+                self.tankTurnLeft = truex
                 self.tankDriveForward = true
             }
             
