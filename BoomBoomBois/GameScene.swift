@@ -40,7 +40,7 @@ class GameScene: SKScene {
         fatalError("init(coder:) has not been implemented")
     }
     
-    var map:Map
+    var map = Map(map_size:CGSize.zero)
     
     var players = [Player]() //Array holding player objects
     let playerColors = ["Black", "Red", "Blue", "Green"] //Color of players' tanks
@@ -101,6 +101,7 @@ class GameScene: SKScene {
     //Start a new game
     func startGame(){
         map = Map(map_size:size)
+        map.setMap(mapSetting: self.mapSetting, gameLayer: self.gameLayer)
         
         initPlayers()
         
@@ -289,15 +290,29 @@ class GameScene: SKScene {
         return triangle
     }
     
+    func createRectangle() -> SKShapeNode
+    {
+        let path = UIBezierPath()
+        path.move(to: CGPoint(x: 0.0, y: 0.0))
+        path.addLine(to: CGPoint(x: size.width * 0.5, y:0.0))
+        path.addLine(to: CGPoint(x: size.width * 0.5, y: size.height * 0.5))
+        path.addLine(to: CGPoint(x: 0.0, y: size.height * 0.5))
+        path.addLine(to: CGPoint(x: 0.0, y: 0.0))
+        let rect = SKShapeNode(path: path.cgPath)
+        return rect
+    }
+    
     // create shape nodes for control buttons
     func initButtons(){
         var playerLeft:SKShapeNode
         var playerRight:SKShapeNode
         for i in 1...numberOfPlayers {
-            if (numberOfPlayers==2){ // 2 player game use large buttons
+            if (numberOfPlayers==2)
+            { // 2 player game use large buttons
                 playerLeft = createTriangle()
                 playerRight = createTriangle()
-                if (i==1){
+                if (i==1)
+                {
                     // player 1 button positioning
                     playerLeft.fillColor = colorsDict[playerColors[i-1]]!
                     playerRight.fillColor = colorsDict[playerColors[i-1]]!
@@ -307,7 +322,9 @@ class GameScene: SKScene {
                     
                     playerRight.alpha = 0.6
                     playerLeft.alpha = 0.6
-                } else if (i==2){
+                }
+                else if (i==2)
+                {
                     // player 2 button positioning
                     playerLeft.fillColor = colorsDict[playerColors[i-1]]!
                     playerRight.fillColor = colorsDict[playerColors[i-1]]!
@@ -319,7 +336,8 @@ class GameScene: SKScene {
                     playerRight.alpha = 0.6
                     playerLeft.alpha = 0.6
                 }
-            } else if (numberOfPlayers==3){ // 3 player game use mix of large and small buttons
+            }
+            else if (numberOfPlayers==3){ // 3 player game use mix of large and small buttons
                 if (i==1){
                     // player 1 button positioning
                     playerLeft = createTriangle()
@@ -476,7 +494,7 @@ class GameScene: SKScene {
                 self.resetTanks()
                 self.map.setMap(mapSetting: self.mapSetting, gameLayer: self.gameLayer)
                 self.countdown(length:5)
-                self.tankTurnLeft = truex
+                self.tankTurnLeft = true
                 self.tankDriveForward = true
             }
             

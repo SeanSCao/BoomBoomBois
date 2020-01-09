@@ -37,6 +37,7 @@ class Map: SKNode
     // add map terrain
     func setMap(mapSetting: Int, gameLayer: SKNode)
     {
+        gameLayer.addChild(self)
         let tileSet = SKTileSet(named: "Grid Tile Set")!
         let tileSize = CGSize(width: 128, height: 128)
         let columns = 32
